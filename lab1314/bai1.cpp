@@ -4,7 +4,7 @@
 
 int main()
 {
-    char str1[100], str2[100];
+    char str1[50ú], str2[50];
     int i, len, no_of_t = 0;
 
     // Nhap chuoi str1 tu bàn phím
@@ -30,7 +30,7 @@ int main()
     printf("Vi tri cac chu 't' trong chuoi la: ");
     for (i = 0; i < len; i++)
     {
-        if (str1[i] == 't')
+        if (str1[i] == 't' || str1[i] == 'T')
         {
             no_of_t++;
             printf("%d ", i);
